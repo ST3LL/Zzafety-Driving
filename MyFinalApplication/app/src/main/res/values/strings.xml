@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application Test</string>
+    <string name="titre_app">Zzafety Driving</string>
+    <string name="welcome_msg">The pleasure of driving safely.</string>
+    <string name="button_main_1">Lets go!</string>
+    <string name="button_main_2">How that work ?</string>
+    <string name="button_main_3">About us</string>
+    <string name="button_main_4">Exit</string>
+    <string name="yes">yes</string>
+    <string name="titre_howthatwork">How that work ?</string>
+    <string name="yes3"> Hey! My name is Estelle and I am 19 years old. I am currently in my second year of a Bachelor of Science and Technology degree.
+This application was created as part of an open source project to be implemented this year. It works in association with the connected object Zzafety Driving.
+I hope you like this product, and I wish you a very good and safe driving experience! </string>
+    <string name="titre_aboutus">About us</string>
+</resources>
