@@ -14,14 +14,10 @@
 #include <BluetoothSerial.h>
 
 Adafruit_MMA8451 mma = Adafruit_MMA8451(); //initialisation
-BluetoothSerial SerialBT;
 //int d = 3;
 
 void setup(void) 
 {
-  SerialBT.begin("ESP32test"); //Bluetooth device name
-  Serial.println("The device started, now you can pair it with bluetooth!");
-  Serial.begin(115200);
   if (! mma.begin()) 
   {
     Serial.println("Couldnt start");
@@ -63,7 +59,7 @@ void loop() {
   mma.getEvent(&event);
 
 
-  if ((-100<AX) && (AX<70) && (3080 < AY) && (AY < 4300))
+  if ((-2500<AX) && (AX<1400) && (3000 < AY) && (AY < 5000))
   {
     Serial.print("Ok");
     digitalWrite(33, HIGH); // pas de bruit
